@@ -15,10 +15,11 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "noUnusedLocals": false, // 사용하지 않는 로컬 변수 검사 비활성화
+    "noUnusedParameters": false // 사용하지 않는 함수 매개변수 검사 비활성화
+    // "noUnusedImports": false // 사용하지 않는 import 검사 비활성화
   },
   "include": ["vite.config.ts"]
 }

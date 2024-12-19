@@ -7,7 +7,7 @@ export default function AppButton(
 ) {
   return (
     <S.Button onClick={onClickFnc} type={type} $style={style}>
-      AppButton
+      {children}
     </S.Button>
   );
 }
